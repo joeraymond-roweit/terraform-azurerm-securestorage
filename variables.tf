@@ -6,16 +6,10 @@ variable "location" {
   type = string
 }
 
-variable "storage_account_name" {
+variable "name" {
   type = string
 }
 
-variable "account_tier" {
-  type    = string
-  default = "Standard"
-}
-
-variable "account_replication_type" {
-  type    = string
-  default = "GRS"
+variable "environment" {
+  type = string
 }
